@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(184, 32, 255);
+    margin: 0;
+}
+
+.PrincipalBoclo {
+    background-color: rgb(186, 213, 238);
+    width: 90%;
+    height: 690px;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+
+.Linha1 {
+    width: 99%;
+    height: 345px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    margin: 0%;
+    
+    
+}
+
+.Linha2 {
+    width: 99%;
+    height: 345px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0%;
+    
+}
+
+
+.q1 {
+    background-color: darkmagenta;
+    width: 23%;
+    height: 23vh;
+}
+
+.q2 {
+    background-color: gold;
+    width: 23%;
+    height: 23vh;
+}
+
+.q3 {
+    background-color: limegreen;
+    width: 23%;
+    height: 23vh;
+}
+
+.q4 {
+    background-color: cornflowerblue;
+    width: 23%;
+    height: 23vh;
+}
