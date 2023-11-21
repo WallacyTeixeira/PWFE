@@ -1,0 +1,69 @@
+body {
+    background-image: url('img/fundo.jfif');
+    /* Substitua pelo caminho real da sua imagem */
+    background-size: cover;
+    /* Garante que a imagem cubra todo o fundo */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita a repetição da imagem */
+    height: 100vh;
+    /* Garante que o fundo cubra a altura da tela */
+    margin: 0;
+    /* Remove margens padrão do corpo da página */
+}
+
+.navbar {
+    height: 80px;
+    /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente os itens */
+}
+
+
+.navbar-brand img {
+    width: 100px;
+    /* Define o tamanho da imagem para um terço do tamanho original */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.nav-link img {
+    width: 100px;
+    /* Define o tamanho da imagem para um terço do tamanho original */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.btn-md {
+    /* Estilo personalizado para o botão médio */
+    font-size: 1.5rem;
+    /* Tamanho da fonte */
+    padding: 40px 70px;
+    /* Espaçamento interno */
+}
+
+.form-control {
+    background-color: transparent;
+    /* Torna a caixa de texto transparente */
+    border: 1px solid #ddd;
+    /* Adiciona uma borda para destacar a caixa de texto */
+    color: #fff;
+    /* Define a cor do texto para branco (pode ser ajustado conforme necessário) */
+}
+
+.frase {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    /* Tamanho da fonte */
+    color: #ffffff;
+    /* Cor do texto (ajuste conforme necessário) */
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+}
